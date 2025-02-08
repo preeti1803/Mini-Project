@@ -1,0 +1,77 @@
+.slider-container {
+    /* width: 100%;
+    max-width: 1200px; /* Increased width to make it rectangular */
+    /* height: 500px; /* Fixed height to maintain rectangular shape */
+    /* margin: auto; */
+    position: relative; 
+    /* border-radius: 15px; /* Soft rounded edges */
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .slide {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .image-container {
+    width: 100%;
+    height: 500px; /* Ensure it matches container height */
+    overflow: hidden;
+    /* Match the container */
+  }
+  
+  .slide-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images fit well */
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide-image:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  .slide-content {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+  }
+  
+  .slide-content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .slide-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .shop-now {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .shop-now:hover {
+    background: #e65c00;
+  }
+  
